@@ -85,6 +85,9 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+
 }
 
 .fundo-video .video {
@@ -141,5 +144,10 @@ body {
     border-width: 0;
     width: 640px;
     height: 360px;
+}
+
+.modal.aberto {
+    opacity: 1;
+    visibility: visible;
 }
 
